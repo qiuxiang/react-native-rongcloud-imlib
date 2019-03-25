@@ -1,6 +1,7 @@
 .idea/
 .vscode/
 .gradle/
+.settings/
 build/
 lib/js/
 node_modules/
@@ -8,6 +9,8 @@ xcuserdata/
 RongIMLib.framework
 
 *.iml
+.classpath
+.project
 gradle.properties
 local.properties
 yarn.lock

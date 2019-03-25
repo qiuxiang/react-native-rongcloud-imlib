@@ -50,4 +50,4 @@ jobs:
 
 stages:
   - name: "build test for example"
-    if: branch = master
+    # if: branch = master
