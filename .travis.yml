@@ -47,7 +47,8 @@ jobs:
         - yarn build
         - cd ios
         - pod install --repo-update
-        - xcodebuild -workspace RongCloudIMLib.xcworkspace -scheme RongCloudIMLib -sdk iphonesimulator -quiet
+        - cd ..
+        - yarn run-ios
 
 stages:
   - name: "build test for example"
