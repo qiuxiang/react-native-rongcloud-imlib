@@ -46,7 +46,7 @@ jobs:
         - yarn add typescript
         - yarn build
         - cd ios
-        - pod install
+        - pod install --repo-update
         - xcodebuild -workspace RongCloudIMLib.xcworkspace -scheme RongCloudIMLib -sdk iphonesimulator -quiet
 
 stages:
